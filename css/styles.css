@@ -167,6 +167,7 @@ margin-left: auto;
    cursor: pointer;
    margin: auto;
    
+   
 }
 .butone:focus{
    background-color: var(--but);

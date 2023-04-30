@@ -169,66 +169,7 @@ margin-left: auto;
    
    
 }
-.herobutton {
-   position: fixed;
-  top: 0;
-  left: 0;
 
-  width: 100%;
-  height: 100%;
-background-color: rgba(46, 47, 66, 0.4);
-transition: opacity 250ms var(--herobutton), visibility 250ms var(--herobutton);
-}
-.modalhero {
-   position: absolute;
-   top: 50%;
-   left: 50%;
- 
-   transform: translate(-50%, -50%);
- 
-   min-width: 408px;
-   min-height: 576px;
-   padding: 24px;
- 
-   background: #fcfcfc;
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-     0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 4px;
-}
-.modalherobut {
-   width: 24px;
-  height: 24px;
-  margin-left: auto;
-}
-.butheroblock {
-   display: flex;
-   align-items: center;
-   justify-content: center;
- 
-   width: 100%;
-   height: 100%;
- 
-   border: none;
-   border-radius: 50%;
-   background-size: cover;
-
-   transition: color 250ms var(--herobutton), background-color 250ms var(--herobutton);
-   background-color: var(--newcolor);
-}
-.butheroblock:hover,
-.butheroblock:focus {
-  background-color: var(--addonehf);
-  color: var(--sect);
-  cursor: pointer;
-}
-.herobutton.herobut {
-   opacity: 0;
-   visibility: hidden;
-   pointer-events: none;
-}
-.icon-close {
-   fill: currentColor;
-}
 .butone:focus{
    background-color: var(--but);
 }
